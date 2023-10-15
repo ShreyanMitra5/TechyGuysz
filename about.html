@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechyGuys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/88f63170fe.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Technocr.png"></a>
+            <div class="nav-links" id ="navLinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">WHY?</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="calhighpython.html">CalHighPythonClub</a> </li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+        <h1>About Me</h1>
+
+    </section>
+
+    <!-- about me content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>About The Owner</h1>
+                <p>Hi I am Shreyan Mitra, I am 13 years old, living in California. 
+                    You might be wondering
+                    why I made this website? I made this because I wanted to use my skills
+                    of coding I know and make somtehing that people can use. Again,
+                    <strong>Thank You!</strong> for checking out my website.
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about2.jpg">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hi I am Shreyan Mitra, and thank you for visiting
+            my website. If you have any questions do not hesitate
+            to contact!
+        </p>
+        <div class="icons">
+           <i class="fa fa-linkedin"></i> 
+           <i class="fa fa-twitter"></i> 
+           <i class="fa fa-github"></i> 
+           <i class="fa fa-youtube"></i> 
+
+        </div>
+        <p>Made with <i class="fa-brands fa-html5"></i>,<i class="fa-brands fa-css3-alt"></i>, <i class="fa-brands fa-js"></i> by Shreyan Mitra</p>
+    </section>
+
+
+
+    
+    <!-- Java Script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>

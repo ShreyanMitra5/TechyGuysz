@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechyGuys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/88f63170fe.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Technocr.png"></a>
+            <div class="nav-links" id ="navLinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">WHY?</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="calhighpython.html">CalHighPythonClub</a> </li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+        <h1>Tech Blogs</h1>
+
+    </section>
+    
+    <!--blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+               
+            <section>
+                <div class="post">
+                    <h2>What are Algorithms in Computer Science?</h2>
+                    <p class="content">
+                        Algorithms are a process of steps to solve a
+                problem. Believe it or not; we use Algorithms
+                everyday in our lives! For instance we use it 
+                everytime we do math. Let's say we have a math 
+                equation -> 2*(x+5) - 3 = 4. First we multiply 
+                two times x plus five. <strong>2*(x+5)</strong>-3 = 4. 
+                After simplifying the equation would look like
+                this ->2x + 10 - 3 = 4. After that we would subtract
+                10 by 3, 2x +<strong>10 - 3</strong> = 4. Then we 
+                would have the equation as 2x + 7 = 4, now we would 
+                subtract 7 on both sides, resulting in this -> 
+                2x = -3. Lastly we would divide 2 on both sides 
+                which means x = -3/2 or x = -1.5. <br/>
+                All those steps from the problem we
+                did was an <strong>algorithm</strong>. These
+                type of Algorithms are used so much in our
+                life that we don't even notice it! Algorithms
+                are also very important in Computer Science.
+                Especially when a problem asks you to do something.
+                This something can be anything. And when we code
+                we write the <strong>steps</strong> down to solve
+                the problem! Down below is another example of an algorithm.
+        
+                    </p>
+                    <iframe src="https://trinket.io/embed/python/180c6efa89" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>                    
+                    <button onclick="readMore(this)">Read More</button>
+                </div>
+                <div class="post">
+                    <h2>Time Complexity</h2>
+                    <p class="content">
+                        If you don't know what time complexity, here is a
+                    brief explanation. Time complexity is the duration
+                    of time taken for an algorithm to run. We use the notation
+                    Big O, this a tool used to describe the time complexity 
+                    of different Algorithms. For example in the code below, all we
+                    are doing is looping through the list and printing the elements
+                    which means the time complexity would be linear.
+                    </p>
+                    <iframe src="https://trinket.io/embed/python/e7d712b5c2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    <button onclick="readMore(this)">Read More</button>
+                </div>
+                <div class="post">
+                    <h2>Binary Search Algorithm</h2>
+                    <p class="content">
+                        Anyways, there is another algorithm which I want to
+                    show you, which is the <strong>Binary Search Algorithm!</strong>.
+                    It might look very complicated but when I finish explaining
+                    it will look really easy. So when to use Binary Search
+                    Algorithm. It would be the exact same case as the linear
+                    search Algorithm or when you need to find a designated
+                    element in an array. But when you use it; you should always have a 
+                    sorted array (descending to ascending integers) or sort the
+                    array beforehand. Alright, let's get into it! Let's say your array
+                    is this -> <strong>[2, 6, 7, 12, 17, 24, 26]</strong>. And let's say your designated
+                    element is <strong>26</strong>. First you would check the middle
+                    element and compare 26 with it. Since 26 > 12, you will move onto
+                    the elements [17,24,26]. Now the new middle element is 24. You will
+                    compare once again 26 with 24. Since 26 > 24, there is only one element 
+                    we can check. [26] is middle element because it is the only element
+                    we have to check. Now when we compare 26 with 26, we see that 
+                    we have found the designated element. The time complexity of 
+                    Binary Search Algorithm is <strong>O(log(n))</strong>, which is
+                    much better than <strong>O(n)</strong>.
+                    </p>
+                    <iframe src="https://trinket.io/embed/python/27a44d7f2d" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>                   
+                    <button onclick="readMore(this)">Read More</button>
+                </div>
+                <div class="post">
+                    <h2>For and While Loops</h2>
+                    <p class="content">
+                        What is a loop? Loop can be used to repeat specific instructions for a known number
+                        of times. The two types of loop we use in python are <strong>For</strong> and <strong>While</strong>
+                        loops. The <strong>for</strong>loop is used to repeat a block of
+                        code known number of times. Whereas a <strong>while</strong>loop is repeated until a 
+                        specific condition is met.
+
+                    </p>
+                    <iframe src="https://trinket.io/embed/python/d43ac12396" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    <button onclick="readMore(this)">Read More</button>
+
+                </div>
+            </section>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Computer Science</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Mechanical Engineering</span>
+                    <span>0</span>
+                </div>
+                <div>
+                    <span>Electrical Engineering</span>
+                    <span>0</span>
+                </div>
+                <div>
+                    <span>Robotics</span>
+                    <span>0</span>
+                </div>
+                <div>
+                    <span>Techy Gadgets</span>
+                    <span>0</span>
+                </div>
+                <div>
+                    <span>Aerospace Engineering</span>
+                    <span>0</span>
+                </div>
+                <div>
+                    <span>Tech News</span>
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hi I am Shreyan Mitra, and thank you for visiting
+            my website. If you have any questions do not hesitate
+            to contact!
+        </p>
+        <div class="icons">
+           <i class="fa fa-linkedin"></i> 
+           <i class="fa fa-twitter"></i> 
+           <i class="fa fa-github"></i> 
+           <i class="fa fa-youtube"></i> 
+
+        </div>
+        <p>Made with <i class="fa-brands fa-html5"></i>,<i class="fa-brands fa-css3-alt"></i>, <i class="fa-brands fa-js"></i> by Shreyan Mitra</p>
+    </section>
+
+
+
+    
+    <!-- Java Script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+        let no0fCharac = 150;
+        let contents = document.querySelectorAll(".content");
+        contents.forEach(content => {
+            //If text length is less that no0fCharac... then hide the read more button
+            if(content.textContent.lenght < no0fCharac){
+                content.nextElementSibling.style.display = "none";
+            }
+            else{
+                let displayText = content.textContent.slice(0, no0fCharac);
+                let moreText = content.textContent.slice(no0fCharac);
+                console.log(displayText);
+                content.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`
+            }
+        });
+
+        function readMore(btn){
+            let post = btn.parentElement;
+            post.querySelector(".dots").classList.toggle("hide");
+            post.querySelector(".more").classList.toggle("hide");
+            btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
+
+        }
+
+    </script>
+    
+</body>
+</html>
